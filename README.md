@@ -14,7 +14,7 @@ Além do diagrama de classe, o analista ainda mandou o documento de requisitos c
 - O método iniciar aluguel deve chamar o método cadastrarUsuario e cadastrarCarro do objeto relacionado a aluguel
 - O método iniciar aluguel deve pedir também o kmInicial do veiculo 
 - O método fechar locacao deve ler a informação de kmFinal.
-    - Para calcular a locação deve-se calcular a quantidad de dias locados * valor por km. Além disso se o carro ficou alugado por mais de 10 dias, deve-se dar desconto de 10% e se ficou mais de 20 dias deve-se dar um desconto de 20%. O valor final deve ser armazenado no atributo valorTotalAluguel
+    - Para calcular a locação deve-se calcular a quilometragem utilizada * valor por km. Além disso se o carro ficou alugado por mais de 10 dias, deve-se dar desconto de 10% e se ficou mais de 20 dias deve-se dar um desconto de 20%. O valor final deve ser armazenado no atributo valorTotalAluguel
 - O método mostrarResumoLocacao deve mostrar as informacoes de cliente, carro, e do aluguel através do JOptionPane, no final ficará assim:
 
 Resumo Aluguel
